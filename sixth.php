@@ -3,7 +3,9 @@
 // Создание массива
 $fruits = ['Яблоко', 'Банан', 'Апельсин'];
 
-// Вывод элементов массива
+// Сортировка массива
+sort($fruits);
+
 foreach($fruits as $fruit) {
-    print($fruit . '<br>');
+    print("{$fruit}<br>");
 }
